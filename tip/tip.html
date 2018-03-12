@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- DW6 -->
+<head>
+<!-- Copyright 2005 Macromedia, Inc. All rights reserved. -->
+<title>Tips</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="description" content="Yifan Cheng Lab" />
+<meta http-equiv="keywords" content="cryoEM, single particle, structure biology" />
+<link rel="stylesheet" href="../home/main.css" type="text/css" />
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+var TODAY = monthname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+</script>
+<style type="text/css">
+<!--
+.style1 {
+	font-size: 12px;
+	color: #000000;
+}
+-->
+</style>
+</head>
+<body bgcolor="#F4FFE4">
+<style type="text/css" title="text/css">
+/* <![CDATA[ */
+#header{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #aaaa99;
+}	
+#header img{
+	border: none;
+}
+
+/* ]]> */
+</style>  
+
+<!--<title>UCSF Banner Graphic</title> -->  
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="description" content="Web banner for the University of California, San Francisco" />
+<meta http-equiv="keywords" content="University of California, San Francisco" />
+
+	<map name="ucsf" id="ucsf">
+        <area shape="rect" coords="37,1,87,29" href="http://www.ucsf.edu/" target="_blank" alt="UCSF home page" />
+		<area shape="rect" coords="91,9,290,22" href="http://www.ucsf.edu/" target="_blank" alt="UCSF home page" />
+		<area shape="rect" coords="305,9,371,22" href="http://www.ucsf.edu/about_ucsf/" target="_blank" alt="About UCSF" />
+        <area shape="rect" coords="387,8,423,21" href="http://www.msg.ucsf.edu/" target="_blank" alt="msg"  />
+        <area shape="rect" coords="449,9,590,23" href="http://biochemistry.ucsf.edu/" target="_blank" alt="biochemistry" />
+ 
+    </map>
+<div id="header"><img src="../img/bannerwgray1.gif" alt="UCSF navigation bar" width="625" height="30" border="0" usemap="#ucsf" /></div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr bgcolor="#D5EDB3">
+    <td colspan="2" rowspan="2"><img src="../img/zhu2.jpg" alt="Header image" width="382" height="101" border="0" /></td>
+    <td width="490" height="50" id="logo" valign="bottom" align="center" nowrap="nowrap">Yifan Cheng Lab</td>
+    <td width="342">&nbsp;</td>
+  </tr>
+
+  <tr bgcolor="#D5EDB3">
+    <td height="51" id="tagline" valign="top" align="center">Molecular Electron Microscopy</td>
+	<td width="342">&nbsp;</td>
+  </tr>
+
+  <tr>
+    <td colspan="4" bgcolor="#5C743D"><img src="../img/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+  </tr>
+
+  <tr>
+    <td colspan="4" bgcolor="#99CC66" background="../img/dashed_line.gif"><img src="../img/dashed_line.gif" alt="line decor" width="4" height="3" border="0" /></td>
+  </tr>
+
+  <tr bgcolor="#99CC66">
+  <td>&nbsp;</td>
+  	<td colspan="3" id="dateformat" height="20"><a href="../index.html">HOME&nbsp;&nbsp;</a>::&nbsp;&nbsp;
+    <script language="JavaScript" type="text/javascript">
+      document.write(TODAY);	</script>	</td>
+  </tr>
+
+  <tr>
+    <td colspan="4" bgcolor="#99CC66" background="../img/dashed_line.gif"><img src="../img/dashed_line.gif" alt="line decor" width="4" height="3" border="0" /></td>
+  </tr>
+
+  <tr>
+    <td colspan="4" bgcolor="#5C743D"><img src="../img/spacer.gif" alt="" width="1" height="1" border="0" /></td>
+  </tr>
+ <tr>
+    <td width="76">&nbsp;</td>
+    <td colspan="2" valign="top">&nbsp;<br />
+    &nbsp;<br />
+   <table border="0" cellspacing="0" cellpadding="2" width="504">
+        <tr>
+          <td class="pageName">EM TIPS</td>
+        </tr>
+        <tr>
+          <td class="bodyText"><p>&nbsp;</p>		  </td>
+        </tr>
+        
+        <td class="subHeader" id="monthformat">&nbsp;<br />
+          September, 2008</td>
+        </tr>
+        <tr>
+          <td class="bodyText" valign="top"><p class="style1"> Even if you have got a beautiful cryo-grid in the microscope with a perfect ice thickness, there is a chance that your ice is crystalline ice instead of amorphous ice. Such crystalline ice crashes out your protein sample. It does generate very good contrast of your particles, but unfortunately, these particles are useless. I tried once to get a 3D reconstruction using particles embedded in such crystalline ice, but it didn’t work. Anyway, here is how you can find out if your ice is crystalline or amorphous: Tilt your specimen back-forth, just like adjusting the specimen eucentric height. If you see some dark contrast (called bend-contour) moving across your specimen (like something is running inside your specimen while your specimen is not moving), you got crystalline ice.</p>            </td>
+        </tr>
+        <tr>
+        <td class="subHeader" id="monthformat">&nbsp;<br />
+          March, 2008</td>
+        </tr>
+        <tr>
+          <td class="bodyText" valign="top"><p class="style1"> Another tip of the month: When plunge-freeze your grid, either using Vitrobot or other apparatuses, blot off liquid ethane with a small piece of filter paper before dipping the grid into liquid Nitrogen. If you want to look at your grid right away, this prevents column vacuum crash by ethane evaporation inside the column. By the way, I learned this from Yoshi.</p>            </td>
+        </tr>
+        <tr>
+          <td class="subHeader" id="monthformat">&nbsp;<br />
+          February, 2008</td>
+        </tr>
+        <tr>
+          <td class="bodyText" valign="top"><p class="style1"> This one is for real! How to have a quick and easy estimation of the ice thickness of your cryo grid in the microscope? The easiest way is to ask 3DEM mailing list to tell you how thick is your ice! But, say, what to do if you are still confused after getting so many different answers from the mailing list? Here is another easy way to actually do it yourself: Burn a small hole in the thick ice area. Then tilt your specimen, say to 60 degree, and measure the length of the ice hole tunnel. This can tell you how thick is the ice. You can then convert this ice thickness to the ratio of CCD counts from ice and from the empty hole. Next time, you can estimate the ice thickness directly from the CCD counts.</p>	      </td>
+        </tr>
+        <tr>
+          <td class="subHeader" id="monthformat">&nbsp;<br />
+          October, 2007</td>
+        </tr>
+        <tr>
+          <td class="bodyText" valign="top"><p class="style1">What do you do if you couldn’t find the beam in the microscope? After making sure that the microscope is working properly and tried in dark all the tricks you have learned but still couldn’t find beam? Here is another trick: Remove the Screen Cover!</p>            </td>
+        </tr>
+        <tr>
+          <td class="subHeader" id="monthformat">&nbsp;<br /></td>
+        </tr>
+        <tr>
+          <td class="bodyText" valign="top"><p>&nbsp;</p>           </td>
+        </tr>
+      </table>
+	  <br />	</td>
+    <td width="342">&nbsp;</td>
+  </tr>
+
+ <tr>
+    <td width="76">&nbsp;</td>
+    <td width="310">&nbsp;</td>
+    <td width="490">&nbsp;</td>
+	<td width="342">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
